@@ -1,5 +1,13 @@
 # dsh-offpeak-check
 
+标题栏最左边多一个「价格」按钮：
+
+![标题栏最左边的「价格」按钮](images/price-button.png)
+
+点开就是今天的时段，以及此刻是原价还是五折：
+
+![点开后的面板](images/price-panel.png)
+
 给 DeepSeek Harness（DSH）用的一个小插件：**核对 DeepSeek 官网的峰期（标准价）时段**，和你本机记录的不一致时提醒你。
 
 > 它只提醒，**不自动改**任何配置，也不控制计费行为。
