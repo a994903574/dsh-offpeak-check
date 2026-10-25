@@ -1,0 +1,40 @@
+{
+  "name": "dsh-offpeak-check",
+  "version": "0.2.1",
+  "description": "DeepSeek 峰期（标准价）时段核对：启动后抓官网价格页比对本地记录，变化只提醒、不自动改。",
+  "type": "module",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE",
+    "client.js"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "pricing",
+    "billing"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "dsh": {
+    "manifestVersion": 1,
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a994903574/dsh-offpeak-check.git"
+  },
+  "homepage": "https://github.com/a994903574/dsh-offpeak-check#readme",
+  "bugs": {
+    "url": "https://github.com/a994903574/dsh-offpeak-check/issues"
+  },
+  "author": "a994903574"
+}
